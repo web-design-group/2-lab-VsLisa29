@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="utf-8">
+    <title>Новости Тим Бертона</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <style>
+        .news-article {
+            overflow: hidden;
+            margin: 2rem auto;
+            padding: 1rem;
+            max-width: 900px;
+            background-color: #e0d9cb;
+            position: relative;
+            z-index: 2;
+        }
+
+        figure {
+            float: left;
+            margin: 0 1rem 0 0;
+            width: 300px;
+        }
+
+        .news-article img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        .news-text {
+            overflow: hidden;
+            font-family: sans-serif;
+            font-size: 0.9rem;
+            line-height: 1.5;
+        }
+
+        figcaption {
+            font-size: 0.8rem;
+            text-align: left;
+            padding: 0.1rem;
+        }
+
+        a.read-more {
+            display: inline-block;
+            margin-top: 0.5rem;
+            text-decoration: none;
+            color: #7f6b55;
+            font-weight: bold;
+            text-decoration: underline;
+        }
+
+        a.read-more:hover {
+            color: #f3f0eb;
+        }
+    </style>
+</head>
+
+<body>
+
+    <img class="plenka-left" src="image/plenka.png">
+    <img class="plenka-right" src="image/plenka.png">
+
+    <header>
+        <nav id="menu">
+            <h1>ТИМ БЕРТОН</h1>
+            <a href="index.html">КИНОПРОЕКТЫ</a>
+            <a href="news.html">НОВОСТИ</a>
+        </nav>
+    </header>
+
+    <main>
+        <h2>НОВОСТИ</h2>
+
+        <article class="news-article">
+            <figure>
+                <img src="image/new1.jpg" alt="Лабиринт">
+                <figcaption>10 сентября 2025</figcaption>
+            </figure>
+            <div class="news-text">
+                <p><strong>«Лабиринт» Тима Бёртона!</strong></p>
+                <p>В сентябре в Espacio Ibercaja Delicias по всему миру откроется «Лабиринт Тима Бёртона» — иммерсивная
+                    выставка, которая перенесёт посетителей в творческую вселенную гения.</p>
+                <a class="read-more" href="https://www.timburton.com/news/laberinto" target="_blank">Читать дальше</a>
+            </div>
+        </article>
+
+        <article class="news-article">
+            <figure>
+                <img src="image/new2.jpg" alt="TimBurton.com">
+                <figcaption>5 октября 2025</figcaption>
+            </figure>
+            <div class="news-text">
+                <p><strong>TimBurton.com возвращается!</strong></p>
+                <p>Спустя два года мы вернулись и стали лучше, чем когда-либо!</p>
+                <a class="read-more" href="https://www.timburton.com/news/wereback" target="_blank">Читать дальше</a>
+            </div>
+        </article>
+
+    </main>
+
+    <footer style="text-align: center; background-color: #f9f5ed;">
+        <p style="font-size: 0.8rem;">Design by Чиркунова Анастасия &copy;</p>
+    </footer>
+
+</body>
+
+</html>
