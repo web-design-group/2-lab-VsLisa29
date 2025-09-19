@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Hombre Regular';
+    src: local('Hombre Regular'),
+        url('/fonts/Hombre Regular.otf');
+}
+
+html {
+    font-size: 23px;
+    background-color: #f2ebe0;
+}
+
+h1 {
+    font-family: 'Hombre Regular';
+    margin: 2%;
+
+}
+
+.plenka-left,
+.plenka-right {
+    position: fixed;
+    top: 0;
+    height: 100vh;
+    width: 200px;
+    z-index: 1;
+}
+
+.plenka-left {
+    left: 0;
+}
+
+.plenka-right {
+    right: 0;
+}
+
+body>header,
+body>main,
+body>footer {
+    margin-left: 200px;
+    margin-right: 200px;
+    position: relative;
+    z-index: 2;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    flex: 1;
+}
+
+#menu {
+    text-align: center;
+    background-color: #e0d9cb;
+    padding: 1rem 0;
+}
+
+#menu h1 {
+    font-size: 2.5rem;
+    margin: 0 0 0.5rem 0;
+    color: #311c02;
+}
+
+#menu a {
+    font-family: sans-serif;
+    font-size: 1.2rem;
+    margin: 0 1rem;
+    text-decoration: none;
+    color: #211201;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+#menu a:hover {
+    color: #f3f0eb;
+}
+
+h2 {
+    font-family: 'Hombre Regular';
+    font-weight: normal;
+    margin: 2rem 0;
+    text-align: center;
+    font-size: 1.5rem;
+}
